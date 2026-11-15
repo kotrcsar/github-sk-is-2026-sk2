@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\aaa\\github-sk-is-2026-sk2\\IS-Programy\\program000a-zakladni-program\\program000a-zakladni-program.csproj": {}
+    "C:\\aaa\\github-sk-is-2026-sk2\\IS-Programy\\program000a-zakladni-program\\program000a-zakladni-program.csproj": {}
   },
   "projects": {
-    "c:\\aaa\\github-sk-is-2026-sk2\\IS-Programy\\program000a-zakladni-program\\program000a-zakladni-program.csproj": {
+    "C:\\aaa\\github-sk-is-2026-sk2\\IS-Programy\\program000a-zakladni-program\\program000a-zakladni-program.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\aaa\\github-sk-is-2026-sk2\\IS-Programy\\program000a-zakladni-program\\program000a-zakladni-program.csproj",
+        "projectUniqueName": "C:\\aaa\\github-sk-is-2026-sk2\\IS-Programy\\program000a-zakladni-program\\program000a-zakladni-program.csproj",
         "projectName": "program000a-zakladni-program",
-        "projectPath": "c:\\aaa\\github-sk-is-2026-sk2\\IS-Programy\\program000a-zakladni-program\\program000a-zakladni-program.csproj",
+        "projectPath": "C:\\aaa\\github-sk-is-2026-sk2\\IS-Programy\\program000a-zakladni-program\\program000a-zakladni-program.csproj",
         "packagesPath": "C:\\Users\\Uzivatel19\\.nuget\\packages\\",
-        "outputPath": "c:\\aaa\\github-sk-is-2026-sk2\\IS-Programy\\program000a-zakladni-program\\obj\\",
+        "outputPath": "C:\\aaa\\github-sk-is-2026-sk2\\IS-Programy\\program000a-zakladni-program\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Uzivatel19\\AppData\\Roaming\\NuGet\\NuGet.Config"
