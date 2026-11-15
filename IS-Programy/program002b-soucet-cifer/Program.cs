@@ -12,43 +12,39 @@ while (again.ToLower() == "a")
     Console.WriteLine();
 
     Console.Write("Zadejte celé číslo: ");
-    int number;
-    while (!int.TryParse(Console.ReadLine(), out number))
+    
+    string number;
+   
+    while (true)
     {
+        number = Console.ReadLine() ?? "";
+        if (int.TryParse(number, out int kontrola))
+        {
+            break;
+        }
         Console.Write("Nezadali jste celé číslo. Zadejte celé číslo znovu: ");
     }
 
-    int numberBackup = number; 
+    int numberBackup = int.Parse(number); 
     int sum = 0;
     int product = 1;               
     int digit;                 
 
-    if (number < 0)
-    {
-        number = -number;
-    }
+   number = number.TrimStart('-');
 
-    if (number == 0)
-    {
-        sum = 0;
-        product = 0;
-    }
-    else
-    {
-        Console.WriteLine();
-        Console.WriteLine("Průběh rozkladu čísla na cifry (zprava doleva):");
+    Console.WriteLine();
+    Console.WriteLine("Průběh rozkladu čísla na cifry (zprava doleva):");
 
-        while (number > 0)
+       foreach (char znak in number)
         {
-            digit = number % 10;            
+            digit = int.Parse(znak.ToString());            
             sum = sum + digit;
             product = product * digit;               
 
             Console.WriteLine($"Získána cifra: {digit}");
-
-            number = number / 10;           
+          
         }
-    }
+    
 
     Console.WriteLine();
     Console.WriteLine("====================================");
