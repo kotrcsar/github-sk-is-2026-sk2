@@ -61,5 +61,6 @@ while (again.ToLower() == "a")
         Console.WriteLine("První číslo je větší než poslední.");
         Console.WriteLine("Tento program umí vypsat pouze vzestupnou řadu (od menšího k většímu");
     }
+    }
 
 
