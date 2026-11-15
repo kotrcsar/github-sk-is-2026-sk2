@@ -19,7 +19,8 @@ while (again.ToLower() == "a")
     }
 
     int numberBackup = number; 
-    int sum = 0;               
+    int sum = 0;
+    int product = 1;               
     int digit;                 
 
     if (number < 0)
@@ -30,6 +31,7 @@ while (again.ToLower() == "a")
     if (number == 0)
     {
         sum = 0;
+        product = 0;
     }
     else
     {
@@ -39,7 +41,8 @@ while (again.ToLower() == "a")
         while (number > 0)
         {
             digit = number % 10;            
-            sum = sum + digit;              
+            sum = sum + digit;
+            product = product * digit;               
 
             Console.WriteLine($"Získána cifra: {digit}");
 
@@ -51,6 +54,7 @@ while (again.ToLower() == "a")
     Console.WriteLine("====================================");
     Console.WriteLine($"Původní číslo:  {numberBackup}");
     Console.WriteLine($"Ciferný součet: {sum}");
+    Console.WriteLine($"Ciferný součin: {product}");
     Console.WriteLine("====================================");
     Console.WriteLine();
 
