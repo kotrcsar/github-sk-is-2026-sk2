@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\aaa\\github-sk-is-2026-sk2\\IS-Programy\\program003b-pravouhly-trojuhelnik\\program003b-pravouhly-trojuhelnik.csproj": {}
+    "c:\\aaa\\github-sk-is-2026-sk2\\IS-Programy\\program003b-pravouhly-trojuhelnik\\program003b-pravouhly-trojuhelnik.csproj": {}
   },
   "projects": {
-    "C:\\aaa\\github-sk-is-2026-sk2\\IS-Programy\\program003b-pravouhly-trojuhelnik\\program003b-pravouhly-trojuhelnik.csproj": {
+    "c:\\aaa\\github-sk-is-2026-sk2\\IS-Programy\\program003b-pravouhly-trojuhelnik\\program003b-pravouhly-trojuhelnik.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\aaa\\github-sk-is-2026-sk2\\IS-Programy\\program003b-pravouhly-trojuhelnik\\program003b-pravouhly-trojuhelnik.csproj",
+        "projectUniqueName": "c:\\aaa\\github-sk-is-2026-sk2\\IS-Programy\\program003b-pravouhly-trojuhelnik\\program003b-pravouhly-trojuhelnik.csproj",
         "projectName": "program003b-pravouhly-trojuhelnik",
-        "projectPath": "C:\\aaa\\github-sk-is-2026-sk2\\IS-Programy\\program003b-pravouhly-trojuhelnik\\program003b-pravouhly-trojuhelnik.csproj",
+        "projectPath": "c:\\aaa\\github-sk-is-2026-sk2\\IS-Programy\\program003b-pravouhly-trojuhelnik\\program003b-pravouhly-trojuhelnik.csproj",
         "packagesPath": "C:\\Users\\Uzivatel19\\.nuget\\packages\\",
-        "outputPath": "C:\\aaa\\github-sk-is-2026-sk2\\IS-Programy\\program003b-pravouhly-trojuhelnik\\obj\\",
+        "outputPath": "c:\\aaa\\github-sk-is-2026-sk2\\IS-Programy\\program003b-pravouhly-trojuhelnik\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Uzivatel19\\AppData\\Roaming\\NuGet\\NuGet.Config"

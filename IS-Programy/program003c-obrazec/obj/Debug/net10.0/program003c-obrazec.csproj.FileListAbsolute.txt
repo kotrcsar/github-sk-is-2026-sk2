@@ -1,0 +1,15 @@
+C:\aaa\github-sk-is-2026-sk2\IS-Programy\program003c-obrazec\bin\Debug\net10.0\program003c-obrazec.exe
+C:\aaa\github-sk-is-2026-sk2\IS-Programy\program003c-obrazec\bin\Debug\net10.0\program003c-obrazec.deps.json
+C:\aaa\github-sk-is-2026-sk2\IS-Programy\program003c-obrazec\bin\Debug\net10.0\program003c-obrazec.runtimeconfig.json
+C:\aaa\github-sk-is-2026-sk2\IS-Programy\program003c-obrazec\bin\Debug\net10.0\program003c-obrazec.dll
+C:\aaa\github-sk-is-2026-sk2\IS-Programy\program003c-obrazec\bin\Debug\net10.0\program003c-obrazec.pdb
+C:\aaa\github-sk-is-2026-sk2\IS-Programy\program003c-obrazec\obj\Debug\net10.0\program003c-obrazec.GeneratedMSBuildEditorConfig.editorconfig
+C:\aaa\github-sk-is-2026-sk2\IS-Programy\program003c-obrazec\obj\Debug\net10.0\program003c-obrazec.AssemblyInfoInputs.cache
+C:\aaa\github-sk-is-2026-sk2\IS-Programy\program003c-obrazec\obj\Debug\net10.0\program003c-obrazec.AssemblyInfo.cs
+C:\aaa\github-sk-is-2026-sk2\IS-Programy\program003c-obrazec\obj\Debug\net10.0\program003c-obrazec.csproj.CoreCompileInputs.cache
+C:\aaa\github-sk-is-2026-sk2\IS-Programy\program003c-obrazec\obj\Debug\net10.0\program003c-obrazec.sourcelink.json
+C:\aaa\github-sk-is-2026-sk2\IS-Programy\program003c-obrazec\obj\Debug\net10.0\program003c-obrazec.dll
+C:\aaa\github-sk-is-2026-sk2\IS-Programy\program003c-obrazec\obj\Debug\net10.0\refint\program003c-obrazec.dll
+C:\aaa\github-sk-is-2026-sk2\IS-Programy\program003c-obrazec\obj\Debug\net10.0\program003c-obrazec.pdb
+C:\aaa\github-sk-is-2026-sk2\IS-Programy\program003c-obrazec\obj\Debug\net10.0\program003c-obrazec.genruntimeconfig.cache
+C:\aaa\github-sk-is-2026-sk2\IS-Programy\program003c-obrazec\obj\Debug\net10.0\ref\program003c-obrazec.dll
