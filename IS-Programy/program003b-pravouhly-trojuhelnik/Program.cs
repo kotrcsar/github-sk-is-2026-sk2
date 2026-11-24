@@ -11,18 +11,18 @@ while (again.ToLower() == "a")
     Console.WriteLine();
 
 
-    Console.Write("Zadejte délku odvěsny (přirozené číslo): ");
+    Console.Write("Zadejte délku 1. odvěsny (přirozené číslo): ");
     int width;
     while (!int.TryParse(Console.ReadLine(), out width) || width <= 0)
     {
-        Console.Write("Šířka musí být celé kladné číslo větší než 0. Zadejte znovu: ");
+        Console.Write("Délka musí být celé kladné číslo větší než 0. Zadejte znovu: ");
     }
 
-    Console.Write("Zadejte délku odvěsny (přirozené číslo): ");
+    Console.Write("Zadejte délku 2. odvěsny (přirozené číslo): ");
     int height;
     while (!int.TryParse(Console.ReadLine(), out height) || height <= 0)
     {
-        Console.Write("Výška musí být celé kladné číslo větší než 0. Zadejte znovu: ");
+        Console.Write("Délka musí být celé kladné číslo větší než 0. Zadejte znovu: ");
     }
 
     Console.WriteLine();
@@ -30,17 +30,16 @@ while (again.ToLower() == "a")
     Console.WriteLine();
 
  
-    for (int i = 1; i <= height; i++)
+for (int i = 1; i <= height; i++)
+{
+
+    for (int j = 1; j <= i; j++)
     {
-
-        for (int j = 1; j <= width; j++)
-        {
-            Console.Write("* ");
-            System.Threading.Thread.Sleep(System.TimeSpan.FromMilliseconds(100)); 
-        }
-
-        Console.WriteLine();
+        Console.Write("* ");
     }
+    Console.WriteLine();
+
+}
 
     Console.WriteLine();
     Console.Write("Pro opakování programu stiskněte 'a' a potvrďte Enterem: ");
