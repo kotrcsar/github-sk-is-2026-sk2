@@ -90,8 +90,9 @@ while (again.ToLower() == "a")
     Console.WriteLine("====================================");
     Console.WriteLine();
 
- Console.WriteLine("Pokračujte stisknutím klávesy 'a', nebo jinak pro ukončení.");
- again = Console.ReadLine();
+ Console.WriteLine();
+ Console.Write("Pro opakování programu stiskněte 'a' a potvrďte klávesou Enter: ");
+ again = Console.ReadLine() ?? "";
 
  }
 
