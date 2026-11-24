@@ -28,8 +28,8 @@ while (again.ToLower() == "a")
     Console.WriteLine();
     Console.WriteLine($"Vykresluji obrazec o rozměrech {width} × {height}:");
     Console.WriteLine();
-
  
+    Console.ForegroundColor = ConsoleColor.Cyan;
 for (int i = 1; i <= height; i++)
 {
 
@@ -40,6 +40,7 @@ for (int i = 1; i <= height; i++)
     Console.WriteLine();
 
 }
+    Console.ResetColor();
 
     Console.WriteLine();
     Console.Write("Pro opakování programu stiskněte 'a' a potvrďte Enterem: ");
