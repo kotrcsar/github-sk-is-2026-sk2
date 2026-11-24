@@ -13,7 +13,7 @@ while (again.ToLower() == "a")
     // Vstup pro počet generovaných čísel
     Console.Write("Zadejte počet generovaných (celé číslo): ");
     int n;
-    while (!int.TryParse(Console.ReadLine(), out n) || n <= 0);
+    while (!int.TryParse(Console.ReadLine(), out n) || n <= 0)
     {
         Console.Write("Nezadali jste kladné celé číslo. Zadejte první číslo znovu: ");
     }
@@ -29,9 +29,9 @@ while (again.ToLower() == "a")
     // Vstup pro horní mez
     Console.Write("Zadejte horní mez (kladné celé číslo): ");
     int UpperBound;
-    while (!int.TryParse(Console.ReadLine(), out UpperBound) || UpperBound < LowerBound);
+    while (!int.TryParse(Console.ReadLine(), out UpperBound) || UpperBound < LowerBound)
     {
-        Console.Write("Nezadali jste celé kladné číslo nebo je horní mez menší než dolní mez. Zadejte poslední číslo znovu");
+        Console.Write("Nezadali jste celé kladné číslo nebo je horní mez menší než dolní mez. Zadejte poslední číslo znovu: ");
     }
 
    // Rekapitulace zadaných hodnot
@@ -70,18 +70,28 @@ while (again.ToLower() == "a")
         else
          zeroes++;
 
-        if(myRanNumbs[i] )
+        if(myRanNumbs[i] % 2 == 0)
+        {
+        evennumbs++;
+        }
+        else
+        {
+        oddnumbs++;
+        }
     }
 
     Console.WriteLine();
     Console.WriteLine("====================================");
-    Console.WriteLine($"Počet záporných čísel {negativenumbs}:");
-    Console.WriteLine($"Počet kladných čísel {positivenumbs}:");
-    Console.WriteLine($"Počet nul {zeroes}:");
-    Console.WriteLine($"Počet sudých čísel {evennumbs}:");
-    Console.WriteLine($"Počet lichých čísel {oddnumbs}:");
+    Console.WriteLine($"Počet záporných čísel: {negativenumbs}");
+    Console.WriteLine($"Počet kladných čísel: {positivenumbs}");
+    Console.WriteLine($"Počet nul: {zeroes}");
+    Console.WriteLine($"Počet sudých čísel: {evennumbs}");
+    Console.WriteLine($"Počet lichých čísel: {oddnumbs}");
     Console.WriteLine("====================================");
     Console.WriteLine();
+
+ Console.WriteLine("Pokračujte stisknutím klávesy 'a', nebo jinak pro ukončení.");
+ again = Console.ReadLine();
 
  }
 

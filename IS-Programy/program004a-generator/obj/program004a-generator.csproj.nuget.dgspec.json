@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\aaa\\github-sk-is-2026-sk2\\IS-Programy\\program004a-generator\\program004a-generator.csproj": {}
+    "C:\\aaa\\github-sk-is-2026-sk2\\IS-Programy\\program004a-generator\\program004a-generator.csproj": {}
   },
   "projects": {
-    "c:\\aaa\\github-sk-is-2026-sk2\\IS-Programy\\program004a-generator\\program004a-generator.csproj": {
+    "C:\\aaa\\github-sk-is-2026-sk2\\IS-Programy\\program004a-generator\\program004a-generator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\aaa\\github-sk-is-2026-sk2\\IS-Programy\\program004a-generator\\program004a-generator.csproj",
+        "projectUniqueName": "C:\\aaa\\github-sk-is-2026-sk2\\IS-Programy\\program004a-generator\\program004a-generator.csproj",
         "projectName": "program004a-generator",
-        "projectPath": "c:\\aaa\\github-sk-is-2026-sk2\\IS-Programy\\program004a-generator\\program004a-generator.csproj",
+        "projectPath": "C:\\aaa\\github-sk-is-2026-sk2\\IS-Programy\\program004a-generator\\program004a-generator.csproj",
         "packagesPath": "C:\\Users\\Uzivatel19\\.nuget\\packages\\",
-        "outputPath": "c:\\aaa\\github-sk-is-2026-sk2\\IS-Programy\\program004a-generator\\obj\\",
+        "outputPath": "C:\\aaa\\github-sk-is-2026-sk2\\IS-Programy\\program004a-generator\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Uzivatel19\\AppData\\Roaming\\NuGet\\NuGet.Config"
